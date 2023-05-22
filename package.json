@@ -1,0 +1,25 @@
+{
+  "name": "floricultura-antonio",
+  "version": "1.0.0",
+  "description": "Projeto realizado de forma educacional e inserção de portfólio.",
+  "main": "index.js",
+  "scripts": {
+    "install:front": "cd ./app/frontend && npm install",
+    "install:back": "cd ./app/backend && npm install",
+    "install:apps": "npm run install:front && npm run install:back",
+    "compose:up": "cd app && docker-compose up -d --build",
+    "compose:down": "cd app && docker-compose down --remove-orphans",
+    "logs": "cd app && docker-compose logs -f"
+  },
+  "author": "AntonioWingert",
+  "license": "ISC",
+  "devDependencies": {
+    "axios": "^1.4.0",
+    "mysql2": "^3.3.1",
+    "sequelize": "^6.31.1",
+    "sequelize-cli": "^6.6.0"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^9.0.0"
+  }
+}
