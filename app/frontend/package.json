@@ -1,13 +1,10 @@
 {
-  "name": "@antoniowingert/next-example",
+  "name": "floricultura-frontend",
   "version": "0.1.0",
   "private": false,
   "author": {
     "name": "Antonio Bruno Wingert",
     "email": "antoniobwingert@gmail.com"
-  },
-  "repository": {
-    "url": "antoniowingert/next-example"
   },
   "scripts": {
     "dev": "next dev",
