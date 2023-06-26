@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CustomTitle /> should render the button with all props passed 1`] = `
+<h1
+  class="text-blue-200 text-6xl"
+>
+  Test
+</h1>
+`;
+
+exports[`<CustomTitle /> should render the button with default props 1`] = `
+<h1
+  class="text-blue-200 text-4xl"
+>
+  Test
+</h1>
+`;

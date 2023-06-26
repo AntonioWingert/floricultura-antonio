@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CustomButton /> should render the button with all props passed 1`] = `
+<button
+  class="bg-blue-200 rounded p-2"
+>
+  Test
+</button>
+`;
+
+exports[`<CustomButton /> should render the button with default props 1`] = `
+<button
+  class="bg-blue-200 rounded p-2"
+>
+  Test
+</button>
+`;
