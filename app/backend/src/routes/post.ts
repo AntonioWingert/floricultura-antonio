@@ -5,11 +5,9 @@ import TokenValidate from "../middlewares/TokenValidate";
 const router = Router();
 
 router.get("/",
-  TokenValidate.validate,
   PostController.getAll);
 
 router.get("/:id",
-  TokenValidate.validate,
   PostController.getById);
 
 router.post("/",

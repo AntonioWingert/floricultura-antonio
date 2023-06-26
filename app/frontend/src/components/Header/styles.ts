@@ -1,3 +1,4 @@
+import theme from '../../styles/theme';
 import tw from 'tailwind-styled-components';
 
 export const Container = tw.header`
@@ -5,7 +6,8 @@ export const Container = tw.header`
   flex
   flex-col
   justify-center
-  items-center
-  h-40
-  gap-2
-`;
+  items-start
+  ${() => theme['padding-sizes'].xxxl}
+  h-28
+  ${() => theme['background-colors'].primary}
+  `;

@@ -4,8 +4,8 @@ import * as S from './styles';
 
 export type TitleProps = {
   children: React.ReactNode;
-  $size?: 'sm' | 'md' | 'lg';
-  $color?: 'primary' | 'secondary' | 'danger';
+  $size?: 'sm' | 'md' | 'lg' | 'xl' | 'xxl' | 'xxxl';
+  $color?: 'primary' | 'secondary' | 'error' | 'dark' | 'white';
   $as?: 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6';
 };
 
