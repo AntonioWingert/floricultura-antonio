@@ -6,8 +6,9 @@ module.exports = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
     './src/styles/theme.ts',
   ],
+  darkMode: 'class',
   theme: {
     extend: {},
   },
   plugins: [],
-}
+};

@@ -13,15 +13,18 @@ export const Container = tw.section`
 `;
 
 export const Form = tw.form`
-  container
   flex
   flex-col
   items-center
   justify-center
-  h-4/6
-  w-2/6
+  w-screen
+  h-screen
   gap-10
   rounded-xl
   shadow-2xl
   ${() => theme['background-colors'].primary}
+  
+  sm:w-3/6
+  sm:h-4/6
+  
 `;

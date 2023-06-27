@@ -13,7 +13,7 @@ const theme = {
     'light-gray': 'text-gray-300',
   },
   'background-colors': {
-    primary: 'bg-blue-300',
+    primary: 'bg-blue-300 dark:bg-blue-800',
     secondary: 'bg-teal-300',
     error: 'bg-red-500',
     dark: 'bg-gray-800',
