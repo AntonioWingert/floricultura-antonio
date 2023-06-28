@@ -19,12 +19,13 @@ export const Form = tw.form`
   justify-center
   w-screen
   h-screen
-  gap-10
-  rounded-xl
+  gap-4
   shadow-2xl
   ${() => theme['background-colors'].primary}
   
+  sm:rounded-xl
   sm:w-3/6
   sm:h-4/6
+  sm:${() => theme['padding-sizes'].lg}
   
 `;

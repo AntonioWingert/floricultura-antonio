@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> should render the heading 1`] = `
+<header
+  class="hidden sm:flex sm:w-screen sm:justify-between sm:items-center sm:h-28 sm: p-12 sm: bg-blue-300 dark:bg-blue-800"
+>
+  <h1
+    class="text-gray-800 text-3xl text-center"
+  >
+    Header
+  </h1>
+  <img
+    alt="User Icon"
+    class="cursor-pointer"
+    data-nimg="1"
+    decoding="async"
+    height="40"
+    loading="lazy"
+    src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+    srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+    style="color: transparent;"
+    width="40"
+  />
+</header>
+`;
